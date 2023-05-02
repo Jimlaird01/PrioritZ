@@ -91,6 +91,11 @@
       <RootComponent type="432" schemaName="contoso_prioritztopic" behavior="0" />
       <RootComponent type="432" schemaName="contoso_prioritztopicitem" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="372" schemaName="contoso_5Fbadges-20connector" displayName="Badges connector" solution="Active" id="{fe1efe29-3d6d-4aa0-802a-569acd6fd020}" />
+        <Dependent type="300" schemaName="contoso_prioritzask_fefd1" displayName="Prioritz Ask" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
